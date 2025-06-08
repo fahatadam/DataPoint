@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  "Roboto", sans-serif;
+    background-color: #E4E9F7;
+}
+html{
+    scroll-behavior: smooth;
+}
+.upper-Section{
+   background-image: linear-gradient(to bottom, #E4E9F7, #695CFE );
+   padding-bottom: 40px;
+}
+.topNav{
+    
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #695CFE;
+    position: fixed;
+    top: 0;
+    
+}
+.navLinks{
+    display: inline-block;
+}
+.navbar img{
+    width: 90px;
+    padding-left: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 40px;
+}
+.navbar ul li{
+    margin-left: 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+.navbar ul li a:hover{
+    background-color: #8a7fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+.upper-Section .Upper-Section-Text{
+    text-align: center;
+    margin-top: 50px;
+}
+.upper-Section .Upper-Section-Text .wellcome{
+    font-size: 40px;
+    margin-top: 120px;
+}
+.btn-sign{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn-sign button{
+    background-color: #fff;
+    color: #695CFE;
+    border: none;
+    margin: 15px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.img-back{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.img-back img{
+    width: 500px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
